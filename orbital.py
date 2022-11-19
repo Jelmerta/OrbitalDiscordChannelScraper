@@ -1,7 +1,7 @@
 import discum     
 import json
 
-bot = discum.Client(token='MTA0MjQzNzYyMjc4MzU0OTU3MA.GbiuCM.QEdJvIq4lNuFf6LVV8DAwjoSSIej8gupoVTZSs', log=False)
+bot = discum.Client(token='TOKEN_HERE', log=False)
 destinysRoomMemberIds = set()
 
 @bot.gateway.command
