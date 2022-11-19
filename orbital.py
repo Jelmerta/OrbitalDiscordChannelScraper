@@ -20,8 +20,8 @@ def helloworld(resp):
     
     channel_id = m['channel_id'] # either null or the channel id
     print("wants to join channel " + str(channel_id))
-    if (channel_id == '265362793262350338'):
-    # if (channel_id == '705904180329709578'): Test room
+#    if (channel_id == '265362793262350338'):
+    if (channel_id == '705904180329709578'):# Test room
         print('add')
         destinysRoomMemberIds.add(member_id)
         update_room_members(destinysRoomMemberIds)
