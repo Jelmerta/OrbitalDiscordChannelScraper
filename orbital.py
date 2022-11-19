@@ -35,7 +35,7 @@ def helloworld(resp):
 
 def update_room_members(room_member_ids):
     print("new channel ids: " + str(room_member_ids))
-    f = open("../room_members.txt", "w")
+    f = open("/Orbiters/orbiters.txt", "w")
     for member_id in room_member_ids:
         f.write(member_id)
     f.close()
